@@ -1,2 +1,2 @@
 # vulkan_devenv
-Vulkan development environment
+Vulkan development environment for Windows and MacOS using vscode
