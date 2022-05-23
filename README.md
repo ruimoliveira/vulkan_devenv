@@ -1,2 +1,2 @@
 # vulkan_devenv
-Basic vulkan development environment for Windows and MacOS using vscode.
+Basic vulkan development environment for MacOS Monterey (M1) using vscode.

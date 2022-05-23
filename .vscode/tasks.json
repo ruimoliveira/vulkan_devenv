@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "clang++ task",
+        "command": "/usr/bin/clang++",
+        "args": [
+          "-std=c++17",
+          "-stdlib=libc++",
+          "-g",
+          "main.cpp",
+          //"Engine/*.cpp",
+          "-o",
+          "main.out",
+          "--include-directory=/opt/homebrew/include",
+          "--library-directory=/opt/homebrew/lib",
+          "-lglfw",
+          "-lvulkan"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": ["$gcc"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
